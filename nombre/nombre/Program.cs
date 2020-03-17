@@ -2,12 +2,30 @@
 
 namespace nombre
 {
+
+    public class Persona
+    {
+        public string Nombre;
+        public string Apellido;
+
+        public void Lanzar()
+        {
+            Random random = new Random();
+            Console.WriteLine(random.Next(0, 3));
+        }
+
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("pene");
+            Persona persona = new Persona();
+            persona.Nombre = "Bob";
+            persona.Apellido = "Kunga";
+            persona.Lanzar();
+
         }
     }
+
 }
