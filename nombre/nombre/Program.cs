@@ -6,7 +6,7 @@ namespace nombre
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"+5);
+            Console.WriteLine("Hello World!");
             Console.WriteLine("pene");
         }
     }
